@@ -16,6 +16,11 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiSupabase,
+  SiStripe,
+  SiWhatsapp,
+  SiGithubactions,
+  SiOpenai,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -51,6 +56,21 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithubactions />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSupabase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiStripe />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiWhatsapp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiOpenai />
       </Col>
     </Row>
   );

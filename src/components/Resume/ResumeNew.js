@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
 
 // Google Drive Preview Link (Use "preview" instead of "view")
-const pdf = "https://drive.google.com/file/d/1aBIa1LMTGL4OJGyYSb1-epwERWBFQZWR/preview";
+const pdf = "https://drive.google.com/file/d/15pDrwck-u_ZImHq0jOhJGahZgIBpftyX/preview";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -21,7 +21,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://drive.google.com/uc?export=download&id=1aBIa1LMTGL4OJGyYSb1-epwERWBFQZWR"
+            href="https://drive.google.com/file/d/15pDrwck-u_ZImHq0jOhJGahZgIBpftyX/preview"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -35,7 +35,7 @@ function ResumeNew() {
           <iframe
             src={pdf}
             width={width > 786 ? "80%" : "100%"}
-            height="600px"
+            height="1100px"
             style={{ border: "none" }}
             allow="autoplay"
           ></iframe>
@@ -44,7 +44,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://drive.google.com/uc?export=download&id=1aBIa1LMTGL4OJGyYSb1-epwERWBFQZWR"
+            href="https://drive.google.com/file/d/15pDrwck-u_ZImHq0jOhJGahZgIBpftyX/preview"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
