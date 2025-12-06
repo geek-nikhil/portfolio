@@ -33,6 +33,7 @@ function ResumeNew() {
         <Row className="resume" style={{ justifyContent: "center", marginTop: "20px" }}>
           {/* Use iframe for Google Drive PDF Preview */}
           <iframe
+            title="resume-pdf"
             src={pdf}
             width={width > 786 ? "80%" : "100%"}
             height="1100px"
