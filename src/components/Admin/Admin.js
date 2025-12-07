@@ -20,7 +20,7 @@ function Admin() {
 
   const handleValidation = (e) => {
     e.preventDefault();
-    if (passcode === "geek-nikhil-blogs-846") {
+    if (passcode === process.env.REACT_APP_ADMIN_PASSCODE) {
       setIsAuthenticated(true);
       setShowModal(false);
       sessionStorage.setItem("admin_auth", "true");
