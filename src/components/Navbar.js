@@ -6,6 +6,7 @@ import logo from "../Assets/image copy.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
+import { FaBlog } from "react-icons/fa";
 
 import {
   AiFillStar,
@@ -78,6 +79,16 @@ function NavBar() {
               >
 
                 <CgBriefcase /> Experience
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/blogs"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
 

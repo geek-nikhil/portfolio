@@ -153,7 +153,8 @@ button:focus {
 }
 
 .logo {
-  height: 2.8em !important;
+  margin-top: 10px;
+  height: 1.8em !important;
   width: 5.0em !important;
 }
 
@@ -263,6 +264,7 @@ button:focus {
   background-size: cover !important;
   width: 100%;
   height: 100%;
+  z-index: -1 !important;
 }
 
 .home-header {
@@ -369,15 +371,15 @@ button:focus {
 
 .home-social-icons {
   position: relative !important;
-  display: inline-block !important;
+  display: inline-flex !important;
+  justify-content: center !important;
+  align-items: center !important;
   width: 40px !important;
   height: 40px !important;
-  text-align: center !important;
-  font-size: 1.2em !important;
-  line-height: 2em !important;
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
+  font-size: 1.2em !important;
 }
 
 .home-social-icons::before {
